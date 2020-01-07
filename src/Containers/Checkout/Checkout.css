@@ -1,0 +1,69 @@
+
+span{
+    margin:1%;
+}
+.ContactInformation{
+    width: 90% !important;
+    padding: 0.4% !important;
+    border: none;
+}
+
+
+
+
+.two{
+    margin:15%;
+}
+
+.firstlastname{
+    width: 45% !important;
+}
+.firstlastname2{
+    width: 45% !important;
+    margin-left:15%;
+}
+
+.button{
+
+    background-color: #51ba72 !important;
+    color: white !important;
+    padding: 2% !important;
+    width: 40% !important;
+    margin-left: 35% !important;
+}
+
+
+
+
+
+.divlast1{
+    display: inline;
+}
+
+
+.divlast2{
+    flex: 1;
+}
+.divlast3{
+    flex: 1;
+}
+.imgtd{
+    width: 15% !important;
+}
+
+.DiscountCode{
+    width: 60% !important;
+}
+
+
+.applyButton{
+    width: 20% !important;
+    margin-left: 8% !important;
+
+    background-color: #51ba72 !important;
+    color: white !important;
+    padding: 2% !important;
+}
+.values{
+    margin-left: 70% !important;
+}
