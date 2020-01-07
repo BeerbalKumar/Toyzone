@@ -1,6 +1,11 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
 "mdbreact";
+import Slider1 from './../../images/slider1.jpg'
+import Slider2 from './../../images/slider2.webp'
+import Slider3 from './../../images/slider3.jpg'
+import Slider4 from './../../images/slider4.jpg'
+import Slider5 from './../../images/slider5.jpg'
 
 const CarouselPage = () => {
   return (
@@ -17,7 +22,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                src={Slider1}
                 alt="First slide"
               />
             </MDBView>
@@ -26,7 +31,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                src={Slider2}
                 alt="Second slide"
               />
             </MDBView>
@@ -35,7 +40,25 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                src={Slider3}
+                alt="Third slide"
+              />
+            </MDBView>
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="3">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src={Slider4}
+                alt="Third slide"
+              />
+            </MDBView>
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="3">
+            <MDBView>
+              <img
+                className="d-block w-100"
+                src={Slider5}
                 alt="Third slide"
               />
             </MDBView>
