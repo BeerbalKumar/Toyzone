@@ -4,14 +4,14 @@
 
 .card-image{
     height: 200px;
-    background-image:url('https://cdn.shopify.com/s/files/1/0272/0409/1949/products/lol_275x.jpg?v=1578057758');
+    /* background-image:url('https://cdn.shopify.com/s/files/1/0272/0409/1949/products/lol_275x.jpg?v=1578057758'); */
     background-position: center;
     background-size: cover;
 }
 .card-titleName{
     /* background-color: brown; */
     width: 100%;
-    margin-top: 170px;
+    margin-top: 75px;
     color:white;
     padding-top: 5px;
     padding-bottom: 5px

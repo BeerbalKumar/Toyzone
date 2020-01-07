@@ -20,15 +20,18 @@ constructor(){
 render(){
     return (
 
-        <div className="row">
-    <div className="col s12 m7">
+        <div style={{margin:"5%"}}>
+    <div>
       <div className="card">
         <div className="card-image"
+        style={{backgroundImage:`url(${this.props.productImage})`}}
          onMouseOver={()=>this.setState({cartTitle:"SAVE 100%",background:"black",button:"SAVE 100%",buttonBackground:"black"})}
          onMouseOut={()=>this.setState({cartTitle:"",background:"",button:"",buttonBackground:"transparent"})}
          >
     <Button 
-    style={{backgroundColor:this.state.buttonBackground}} variant="contained" disableElevation>
+    color="primary"
+    style={{backgroundColor:this.state.buttonBackground,marginTop:"60px"}}
+     variant="contained" disableElevation>
       {this.state.button}
     </Button>
          <div className="card-titleName" style={{backgroundColor:this.state.background}}>
@@ -37,16 +40,27 @@ render(){
         </div>
         <div className="card-content">
           <p>
-              I am a very simple card. I am good at containing small bits of
-              I am a very simple card. I am good at containing small bits of  
+              {
+                this.props.productDes
+              }
         </p>
+        <br/>
         <Button variant="contained" color="primary" disableElevation>
       ADD TO CART
     </Button>
+    <br/><br/>
+    <h2>
+      RS. 
+      {
+        this.props.productPrice
+      }
+    </h2>
+    
+  <div >
+    <div  style={{width:"25%"}}></div>
+  </div>
         </div>
-        <div className="card-action">
-          <a href="#">This is a link</a>
-        </div>
+
       </div>
     </div>
   </div>
