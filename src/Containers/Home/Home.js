@@ -1,10 +1,20 @@
 import React from 'react';
+import Card from './../../Components/Card/Card'
+import Grid from '@material-ui/core/Grid';
 
 class Home extends React.Component{
   render(){
     return(
 <div>
-    <h1>This is Home Page</h1>
+  
+   <center>
+     <Grid container justify="center" spacing={3}>
+     <Grid item lg={2}>
+      <Card/>   
+      </Grid> 
+
+      </Grid>
+    </center>   
 </div>
     )
   }
