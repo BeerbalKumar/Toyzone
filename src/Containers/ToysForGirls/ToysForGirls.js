@@ -1,10 +1,19 @@
 import React from 'react';
 import Card from './../../Components/Card/Card'
 import Grid from '@material-ui/core/Grid';
+import Header from './../../Components/Header/Header';
+import SubHeader from './../../Components/SubHeader/subHeadre'
+import NavbarPage from './../../Components/Navbar/Navbar'
 
 class ToysForGirls extends React.Component{
   render(){
     return(
+      <div>
+      <Header/>
+     <br/>
+     <SubHeader/>
+       <br/>
+       <NavbarPage/>
 <div style={{margin:"5%"}}>
   
    <center>
@@ -210,6 +219,7 @@ class ToysForGirls extends React.Component{
 
       </Grid>
     </center>   
+</div>
 </div>
     )
   }
