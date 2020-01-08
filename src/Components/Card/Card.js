@@ -51,9 +51,7 @@ render(){
     <br/><br/>
     <h2>
       RS. 
-      {
-        this.props.productPrice
-      }
+      {this.props.productPrice}
     </h2>
     
   <div >

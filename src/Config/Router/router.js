@@ -6,7 +6,10 @@ import {
 } from "react-router-dom";
 
 import {
-    Home
+    Home,
+    Vehicles,
+    ToyForBoys,
+    ToysForGirls
 }
 from './../../Containers'
 
@@ -16,6 +19,13 @@ export default class ReactRouter extends React.Component{
         return(
             <Router>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/Vehicles" component={Vehicles} />
+                <Route exact path="/ToyForBoys" component={ToyForBoys} />
+                <Route exact path="/ToysForGirls" component={ToysForGirls} />
+
+
+
+
             </Router>
         )
     }
