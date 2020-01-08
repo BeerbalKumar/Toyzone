@@ -1,0 +1,66 @@
+th{
+    /* font-size: 1.5em !important; */
+}
+img{
+    background-color: #f8f8f8;
+    margin-top: 12% !important;
+}
+
+th{
+    background-color: #f8f8f8 !important;
+    padding: 1%;
+    font-size: 16px !important;
+}
+
+#price{
+    text-align: end;
+}
+
+.plus_minse{
+    border: 1px solid black;
+    background-color: #f8f8f8 ;
+
+}
+
+.product{
+    width: 10%;
+    margin: 2% !important;
+}
+
+.Description{
+    width: 40%;
+
+}
+
+.Quantity{
+    width: 15%;
+/* text-align: center; */
+}
+.Price{
+    width: 15%;
+text-align: end;
+}
+
+
+.Total{
+    width: 15%;
+    text-align: end;
+    
+}
+#total{
+    text-align: end;
+}
+.plus{
+    height: 100% !important;
+    width: 50% !important;
+    background-color: chartreuse;
+}
+.productDescption{
+
+    font-size: 15px !important;
+}
+span{
+color: red;
+    text-align: center !important ;
+    cursor: pointer;
+}

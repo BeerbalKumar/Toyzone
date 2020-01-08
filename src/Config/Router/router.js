@@ -11,6 +11,8 @@ import {
 from './../../Containers'
 import Checkout from "./../../Containers/Checkout/Checkout"
 
+import Blog from "./../../Containers/Blog/Blog"
+
 export default class ReactRouter extends React.Component{
     render(){
         return(
@@ -18,6 +20,7 @@ export default class ReactRouter extends React.Component{
                 <Route exact path="/" component={Home} />
                 <Route exact path="/checkout" component={Checkout} />
 
+                <Route exact path="/blog" component={Blog} />
                 
             </Router>
         )
