@@ -9,10 +9,13 @@ import {
     Home,
     Vehicles,
     ToyForBoys,
-    ToysForGirls
+    ToysForGirls,
+    BabyToys,
+    NewArrival,
+    FlashSale
 }
 from './../../Containers'
-
+import Checkout from "./../../Containers/Checkout/Checkout"
 
 export default class ReactRouter extends React.Component{
     render(){
@@ -22,10 +25,16 @@ export default class ReactRouter extends React.Component{
                 <Route exact path="/Vehicles" component={Vehicles} />
                 <Route exact path="/ToyForBoys" component={ToyForBoys} />
                 <Route exact path="/ToysForGirls" component={ToysForGirls} />
+                <Route exact path="/BabyToys" component={BabyToys} />
+                <Route exact path="/NewArrival" component={NewArrival} />
+                <Route FlashSale path="/FlashSale" component={FlashSale} />
 
 
 
 
+                <Route exact path="/checkout" component={Checkout} />
+
+                
             </Router>
         )
     }
