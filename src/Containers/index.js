@@ -5,6 +5,7 @@ import ToysForGirls from './ToysForGirls/ToysForGirls'
 import BabyToys from './BabyToys/BabyToys'
 import NewArrival from './NewArrival/NewArrival';
 import FlashSale from './FlashSale/FlashSale'
+import WinterBigSale from './WinterBigSale/WinterBigSale'
  
 export 
 {
@@ -14,6 +15,7 @@ export
     ToysForGirls,
     BabyToys,
     NewArrival,
-    FlashSale
+    FlashSale,
+    WinterBigSale
 
 }
