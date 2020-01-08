@@ -1,0 +1,79 @@
+
+                    function createButton(context){
+                        var button = document.createElement('input');
+                        var urls = window.location.href;
+                        button.type = 'button';
+                        button.value = "Whatsapp Us";
+                        button.style.color = 'white';
+                        button.style.background = 'rgba(57,162,57,0.86)';
+                        button.style.fontSize = '14px';
+					    function myFunction(x) {
+							var x = window.matchMedia('(max-width: 700px)')
+							if (x.matches) 
+								{ 
+						    		button.style.display = 'block';
+								} 
+							else 
+								{
+									button.style.display = 'none';
+								}
+						}
+						var x = window.matchMedia('(max-width: 700px)')
+						myFunction(x) // Call listener function at run time
+						x.addListener(myFunction) // Attach listener function on state changes
+                        button.style.verticalAlign = 'top';
+                        button.style.height = 'auto';
+                        button.style.transform = 'rotate(270deg)';
+                        button.style.position = 'fixed';
+                        button.style.borderRadius = '5px';
+                        button.style.border = 'rgba(57,162,57,0.86)';
+                        button.style.bottom = '25%';
+                        button.style.left = '0px';
+                        button.style.padding = '9px 10px 9px 10px';
+                        button.style.width = 'auto';
+                        button.style.cursor = 'pointer';
+                        button.style.boxshadow = 'rgb(77, 77, 77) 2px 2px 6px';
+                        button.style.zindex = '2147483647 !important';
+                        button.style.webkitAppearance = 'none';
+                        button.style.transformOrigin = '9%';
+                        button.style.minWidth = '150px';
+                        button.style.zIndex = '99999999999999';
+                        button.onclick = function() {functienaam(button)};
+                        context.appendChild(button);
+                    }
+                    function functienaam(button){
+						$.getJSON("https://jsonip.com?callback=?", function(data) {
+							var ipcc = data.ip;
+							var shopp = 'toyzonepakistan';
+							var xhttp = new XMLHttpRequest();
+						    xhttp.open("GET", "https://warm-island-87324.herokuapp.com/analytics/new?shopname=" + shopp + "&ip=" + ipcc + "/", true);
+							xhttp.send();
+						});
+
+					  	var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+				      	
+					    if (/windows phone/i.test(userAgent)) {
+					        str1 = 'https://api.whatsapp.com/send?phone=923211222869&text='
+					    }
+
+					    else if (/android/i.test(userAgent)) {
+					        str1 = 'https://api.whatsapp.com/send?phone=923211222869&text='
+					    }
+
+					    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+					    else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+					        str1 = 'https://api.whatsapp.com/send?phone=923211222869&text='
+					    }
+
+						else {
+							str1 = 'https://web.whatsapp.com/send?phone=923211222869&text='
+						}
+                        str2 = window.location.href
+                        str3 = " I am interested in this product"
+                        var res = str1.concat(str2)
+                        var links = res.concat(str3)
+                        window.open(links,'_blank');
+                    }
+                    createButton(document.body);
+                    

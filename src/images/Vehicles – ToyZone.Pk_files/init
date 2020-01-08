@@ -1,0 +1,36 @@
+    //if ( window.location.href.indexOf("login") !== -1 || window.location.href.indexOf("register") !== -1 ) {
+        var list = document.querySelectorAll('form[id="customer_login"], form[id="create_customer"]');
+        list_length = 0;
+        if (list.length > 0)
+            list_length = 1;
+        for(var i = 0; i < list_length; i++) {
+            list[i].insertAdjacentHTML('afterbegin', '<div class="oxi_social_wrapper" style=""><iframe id="social_login_frame" src="https://social-login.oxiapps.com/widget?site=toyzonepakistan.myshopify.com&vt=928352&parenturl='+document.location.href+'" style="width:100%;max-width:100%;padding-top:0px;margin-bottom:5px;border:0px;height:96px;" scrolling=no></iframe></div>');
+        }
+    //}
+        if (document.getElementById('oxi-social-login')!==null) {
+        document.getElementById('oxi-social-login').innerHTML="<iframe id='social_login_frame' src='https://social-login.oxiapps.com/widget?site=toyzonepakistan.myshopify.com&vt=928352&parenturl="+document.location.href+"' style='width:100%;max-width:100%;padding-top:0px;margin-bottom:5px;border:0px;height:96px;' scrolling=no></iframe>";
+    }
+    var oxi_elms = document.querySelectorAll(".oxi-social-login");
+    for(var i = 0; i < oxi_elms.length; i++) {
+        oxi_elms[i].innerHTML="<iframe id='social_login_frame' src='https://social-login.oxiapps.com/widget?site=toyzonepakistan.myshopify.com&vt=928352&parenturl="+document.location.href+"' style='width:100%;max-width:100%;padding-top:0px;margin-bottom:5px;border:0px;height:96px;' scrolling=no></iframe>";
+    }
+        var resized = false;
+    var response = function(event) {
+        if (event.origin+'/'=="https://social-login.oxiapps.com/") {
+            var message = event.data+'';
+            var key = message.split(':')[0];
+            var value = message.split(':')[1];
+            if (key=="height") {
+                var oxi_iframe = document.getElementById('social_login_frame');
+                if (oxi_iframe && !resized) {
+                    resized = true;
+                    oxi_iframe.style.height = value + "px";
+                }
+            }
+        }
+    }
+    if (window.addEventListener) {
+        window.addEventListener('message', response, false);
+    } else {
+        window.attachEvent("onmessage", response);
+    }

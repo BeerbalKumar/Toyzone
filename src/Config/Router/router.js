@@ -7,6 +7,13 @@ import {
 
 import {
     Home,
+    Vehicles,
+    ToyForBoys,
+    ToysForGirls,
+    BabyToys,
+    NewArrival,
+    FlashSale,
+    WinterBigSale
 }
 from './../../Containers'
 import Checkout from "./../../Containers/Checkout/Checkout"
@@ -18,6 +25,18 @@ export default class ReactRouter extends React.Component{
         return(
             <Router>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/Vehicles" component={Vehicles} />
+                <Route exact path="/ToyForBoys" component={ToyForBoys} />
+                <Route exact path="/ToysForGirls" component={ToysForGirls} />
+                <Route exact path="/BabyToys" component={BabyToys} />
+                <Route exact path="/NewArrival" component={NewArrival} />
+                <Route FlashSale path="/FlashSale" component={FlashSale} />
+                <Route FlashSale path="/WinterBigSale" component={WinterBigSale} />
+
+
+
+
+
                 <Route exact path="/checkout" component={Checkout} />
 
                 <Route exact path="/blog" component={Blog} />
