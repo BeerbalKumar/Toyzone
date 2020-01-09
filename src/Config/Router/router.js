@@ -13,7 +13,8 @@ import {
     BabyToys,
     NewArrival,
     FlashSale,
-    WinterBigSale
+    WinterBigSale,
+    Login
 }
 from './../../Containers'
 import Checkout from "./../../Containers/Checkout/Checkout"
@@ -32,15 +33,9 @@ export default class ReactRouter extends React.Component{
                 <Route exact path="/NewArrival" component={NewArrival} />
                 <Route FlashSale path="/FlashSale" component={FlashSale} />
                 <Route FlashSale path="/WinterBigSale" component={WinterBigSale} />
-
-
-
-
-
                 <Route exact path="/checkout" component={Checkout} />
-
                 <Route exact path="/blog" component={Blog} />
-                
+                <Route exact path="/login" component={Login} />
             </Router>
         )
     }
