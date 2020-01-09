@@ -46,7 +46,7 @@ class Vehicles extends React.Component{
       productPrice="2,800"
       />   
       </Grid> 
-      <Grid item lg={3}>
+      <Grid item lg={3} xs={12}>
       <Card 
       productHoverImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/metal-body-die-cast-model-lexus-lx-570-5_1024x1024.jpg?v=1574371246"
       productImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/metal-body-die-cast-model-lexus-lx-570-1_275x.jpg?v=1574467632"
@@ -190,7 +190,7 @@ class Vehicles extends React.Component{
       productPrice="3,250"
       />   
       </Grid> 
-      <Grid item lg={3}>
+      <Grid item lg={3} xs={12}>
       <Card 
       productHoverImage="//cdn.shopify.com/s/files/1/0272/0409/1949/products/diecast-metal-body-bmw--565.png?v=1574373765"
       productImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/diecast-metal-body-bmw--2_275x.png?v=1574468704"

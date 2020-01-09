@@ -160,68 +160,35 @@ class FlashSale extends React.Component{
       <Card 
       productHoverImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/Mixer-1_275x.jpg?v=1578060099"
       productImage="//cdn.shopify.com/s/files/1/0272/0409/1949/products/mixer.jpg?v=1578060099"
-      productDes=""
+      productDes="DIY Truck Assembly - Mixer"
       productPrice="1,595"
       />   
       </Grid> 
       <Grid item lg={3}>
       <Card 
-      productHoverImage=""
-      productImage=""
-      productDes=""
-      productPrice=""
+      productHoverImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/Dumper_275x.jpg?v=1578060210"
+      productImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/Dumper_b585da97-16b5-47c3-a7f3-c2500072afee_1024x1024.jpg?v=1578060210"
+      productDes="DIY Truck Assembly - Dumper"
+      productPrice="1,595"
       />   
       </Grid> 
       <Grid item lg={3}>
       <Card 
 
-      productHoverImage=""
-      productImage=""
-      productDes=""
-      productPrice=""
+      productHoverImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/ATV-3_275x.jpg?v=1578060499"
+      productImage="//cdn.shopify.com/s/files/1/0272/0409/1949/products/bike_bac748cc-fa1a-45ff-b7ed-39f1b5fc3a8f.jpg?v=1578060499"
+      productDes="Metal Mini - ATV Bike"
+      productPrice="750"
       />   
       </Grid> <Grid item lg={3}>
       <Card 
-      productHoverImage=""
-      productImage=""
-      productDes=""
-      productPrice=""
+      productHoverImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/Moter-Travel_275x.jpg?v=1578060319"
+      productImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/Moter-Travel_2bcbb357-47d2-43cb-bddb-372905e5bf73_1024x1024.jpg?v=1578060319"
+      productDes="Friction Motor Travel"
+      productPrice="450"
       />   
       </Grid> 
-      <Grid item lg={3}>
-      <Card 
-      productHoverImage=""
-      productImage=""
-      productDes=""
-      productPrice=""
-      />   
-      </Grid> 
-      <Grid item lg={3}>
-      <Card 
-      productHoverImage=""
-      productImage=""
-      productDes=""
-      productPrice=""
-      />   
-      </Grid> 
-      <Grid item lg={3}>
-      <Card 
-      productHoverImage=""
-      productImage=""
-      productDes=""
-      productPrice=""
-      />   
-      </Grid> 
-      <Grid item lg={3}>
-      <Card 
-
-      productHoverImage=""
-      productImage=""
-      productDes=""
-      productPrice=""
-      />   
-      </Grid> 
-
+     
       </Grid>
     </center>   
 </div>
