@@ -44,16 +44,16 @@ export default class Login extends React.Component {
                                     Login With Facebook
                                     <FaFacebookF style={{marginLeft:"50%"}}/>
                             </Button>
-                           
+                           <br/><br/>
                             <Button variant="contained"
                                     style={{
-                                        backgroundColor: "#c23321",
+                                        backgroundColor: "white",
                                         color: "white",
                                         width: "90%"
                                     }}
                                     disableElevation>
                                     Login With Google
-                                   <FaGoogle style={{marginLeft:"50%"}}/>
+                                   <FaGoogle style={{marginLeft:"50%",color:"#c23321"}}/>
                             </Button>
                             </center>
                             <br /><br /><br /><br />
