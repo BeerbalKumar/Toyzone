@@ -1,0 +1,18 @@
+.loginInput{
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+    background-clip: padding-box;
+    width: 90%;
+    border: 1px solid #e0e0e0;
+    padding: 2%;
+    border-radius:2px;
+    box-sizing: border-box;
+    box-decoration-break: slice;
+    font-family: 'Questrial', sans-serif;
+}
+
+.loginHeading{
+    font-family: 'Questrial', sans-serif;
+    color: #37a000;
+    font-size: 30px;
+    /* font-weight: 600; */
+}

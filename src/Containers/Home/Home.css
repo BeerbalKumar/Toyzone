@@ -1,5 +1,33 @@
+
 .cartHeading{
     text-align: center;
     font-weight: bold;
     font-family: 'Questrial', sans-serif !important;
+}
+
+.flashDeals{
+    margin-top: 50px;
+}
+
+.newArrivals{
+    margin-top: 50px;
+}
+
+.bestSellers{
+    margin-top: 50px; 
+}
+
+.shopBrands{
+    margin-top: 50px;
+}
+.paragraph{
+    font-family: 'Questrial', sans-serif !important;
+    text-align: justify;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 50px;
+    padding: 5%;
+}
+.toyzoneImage{
+    width: 100%;
 }

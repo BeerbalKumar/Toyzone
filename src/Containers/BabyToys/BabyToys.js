@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Header from './../../Components/Header/Header';
 import SubHeader from './../../Components/SubHeader/subHeadre'
 import NavbarPage from './../../Components/Navbar/Navbar'
-
 class BabyToys extends React.Component{
   render(){
     return(
@@ -15,7 +14,6 @@ class BabyToys extends React.Component{
        <br/>
        <NavbarPage/>
 <div style={{margin:"5%"}}>
-  
    <center>
      <Grid container justify="center" >
 

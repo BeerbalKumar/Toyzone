@@ -39,7 +39,7 @@ export default class Responsive extends Component {
     };
     return (
       <div>
-        <Slider {...settings}>
+        <Slider {...settings} style={{margin:"0px",width:"100%"}}>
           {
               this.props.children
           }

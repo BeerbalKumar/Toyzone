@@ -6,8 +6,8 @@ import BabyToys from './BabyToys/BabyToys'
 import NewArrival from './NewArrival/NewArrival';
 import FlashSale from './FlashSale/FlashSale'
 import WinterBigSale from './WinterBigSale/WinterBigSale';
-import Login from './Login/Login'
- 
+import Login from './Login/Login';
+import Signup from './Signup/Signup'
 export 
 {
     Home,
@@ -18,6 +18,6 @@ export
     NewArrival,
     FlashSale,
     WinterBigSale,
-    Login
-
+    Login,
+    Signup
 }

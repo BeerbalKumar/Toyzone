@@ -36,27 +36,28 @@ export default class Login extends React.Component {
 
                             <Button variant="contained"
                                     style={{
-                                        backgroundColor: "#2d5073",
-                                        color: "white",
-                                        width: "90%"
+                                        backgroundColor: "white",
+                                        color: "#2d5073",
+                                        width: "90%",
+                                        border:"1px solid #e0e0e0"
                                     }}
                                     disableElevation>
                                     Login With Facebook
-                                    <FaFacebookF style={{marginLeft:"50%"}}/>
+                                    <FaFacebookF style={{marginLeft:"50%",color:"#2d5073"}}/>
                             </Button>
                            <br/><br/>
                             <Button variant="contained"
                                     style={{
                                         backgroundColor: "white",
-                                        color: "white",
-                                        width: "90%"
+                                        color: "#c23321",
+                                        width: "90%",
+                                        border:"1px solid #e0e0e0"
                                     }}
                                     disableElevation>
                                     Login With Google
                                    <FaGoogle style={{marginLeft:"50%",color:"#c23321"}}/>
                             </Button>
                             </center>
-                            <br /><br /><br /><br />
                         </div>
                     </Grid>
                 </Grid>
