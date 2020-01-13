@@ -35,7 +35,7 @@ export default class ReactRouter extends React.Component{
                 <Route FlashSale path="/FlashSale" component={FlashSale} />
                 <Route FlashSale path="/WinterBigSale" component={WinterBigSale} />
                 <Route exact path="/checkout" component={Checkout} />
-                <Route exact path="/blog" component={Blog} />
+                <Route exact path="/viewCart" component={Blog} />
                 <Route exact path="/login" component={Login} />
                 <Route exact path="/signup" component={Signup} />
             </Router>

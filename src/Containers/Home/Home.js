@@ -43,12 +43,10 @@ class Home extends React.Component {
   render() {
     return (
       <div style={{margin:"0px"}}>
-        <Header />
-        <br />
-        <SubHeader />
-        <NavbarPage />
-        <CarouselPage />
-
+            <Header  path={this.props.history}/>
+            <SubHeader />
+             <NavbarPage path={this.props.history}/>
+             <CarouselPage />
         <div style={{width:"98%",margin:"auto"}}>
        
         <h1 className="cartHeading">Popular Categories</h1>
@@ -167,8 +165,8 @@ class Home extends React.Component {
         </div>
 
 
-      <div className="">
-        <Grid container justify="center">
+      
+        {/* <Grid container justify="center">
           <Grid item lg={6} xs={8}>
            <img src={Toyzone} className="toyzoneImage"/>
           </Grid>
@@ -182,21 +180,12 @@ class Home extends React.Component {
               <p>Choose from a Wide Range of High-Quality Toys for Sale</p>
               <p>At Toy Zone, you can take your time to explore our captivating kid’s world online, which boasts an array of unique and amazing collection of toys for toddlers, infants, and preschool kids. We have everything you are searching for to make your kid’s playtime a fun and exciting one. For outdoor fun activities, you can buy flexible slides and swimming pools. To make indoor activities interesting, explore our collection of board games, play sets, blocks and stacking and much more.</p>
               <p>For your little girls, we have playsets like kitchen sets, Barbie dolls, play makeup sets, and more. Explore our collection of amazing toys that you can buy from the comfort of your home and have them delivered to your doorstep in no time.</p>
-              <p>Browse Our Categories</p>
-              <p>Toy Zone is here to make parenting easier so that you can keep your kids busy. As you explore our store online, you will find high-quality toys for sale that fit all age groups and moods. When you browse our categories, you will find:</p>
-              <p>Frozen Toys for Sale in Pakistan</p>
-              <p>Dolls, house sets, kitchen sets, lunch box and water bottle sets, and more, we have a category dedicated to the special Disney cartoon “Frozen toys” for your little girl. Find some unique toys like Frozen Fever Anna Doll with Carriage, Frozen Angel Girl | Flashing Light & Sound, Frozen Fever Anna Fashion Doll and much more at best prices in Pakistan.</p>
-              <p>Lego</p>
-              <p>Welcome to our Lego shop, where you can find some interesting puzzles and much more to keep your little ones busy. Choose from special Lego box sets like LEGO Super Heroes, Lego Duplo, Lego Ninjago, Lego NEXO Knights, Lego Star Wars, Lego City, Lego Disney and more.</p>
-              <p>Other categories you can buy toys online in Pakistan from at Toy Zone include Barbie Dreamotpia, Hasbro Game Channel, Fisher Price, and more.</p>
-              <p>The options are quite endless here at Toy Zone. Our toys and baby products for sale in Pakistan give you the chance to bond well with your child and understand them much better. With easy online shopping options, re-live a little bit of your childhood with your little ones. Make time to not just place an order here, but to play with your kids!</p>
             </div>
           </Grid>
-        </Grid>
-      </div>
+        </Grid> */}
 
-
-
+        <br/><br/><br/><br/>
+     
       <FooterPagePro/>
 
       </div>

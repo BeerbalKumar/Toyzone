@@ -1,39 +1,28 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import './SubHeader.css'
-import Logo from './../../images/logo.webp'
-import {FaSearch,FaPhone} from "react-icons/fa";
+import Logo from './../../images/logo.svg'
+import { FaSearch, FaPhone } from "react-icons/fa";
+import Button from '@material-ui/core/Button';
 
-export default class SubHeader extends React.Component{
-    render(){
-        return(
-            <div>
-<Grid container justify="center">
-<Grid item lg={1} xs={12}>
-      
-  </Grid>
-  <Grid item lg={2} xs={12}>
-      <img src={Logo} width="100%" height="50px" />
-  </Grid>
-  <Grid  item lg={4} xs={10}>
-  <div className="input-group">
-  <input type="text" className="form-control" placeholder="search here..." aria-label="Username" aria-describedby="basic-addon" />
-      <div className="input-group-prepend">
-        <span className="input-group-text" id="basic-addon">
-          <FaSearch/>
-        </span>
+export default class SubHeader extends React.Component {
+  render() {
+    return (
+      <div className="subHeaderDiv">
+        <Grid container justify="center">
+          <Grid item lg={2} xs={2}>
+            <img src={Logo} width="100%" height="50px" />
+          </Grid>
+          <Grid item lg={10} xs={8}>
+            <center>
+            <input type="text" className="searchInput" placeholder="search here..." aria-label="Username" aria-describedby="basic-addon" />
+            <Button variant="contained" style={{ backgroundColor: "#b24e56", color: "#c23321", border: "1px solid #e0e0e0", height: "44px", width: "10%" }} disableElevation>
+              <FaSearch style={{ color: "white" }} />
+            </Button>
+            </center>
+          </Grid>
+        </Grid>
       </div>
-      
-    </div>
-  </Grid>
-  <Grid  item lg={5} xs={10}>
-      <div className="contactSec">
-          <p>Need Suppot?</p>
-          <p><FaPhone/>03211222869</p>
-      </div>
-  </Grid>
-</Grid>
-            </div>
-        )
-    }
+    )
+  }
 }

@@ -25,9 +25,10 @@
     text-align: justify;
     font-size: 10px;
     line-height: 15px;
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 5%;
 }
 .toyzoneImage{
     width: 100%;
+    height: 70%;
 }

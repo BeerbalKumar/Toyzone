@@ -3,16 +3,18 @@ import Card from './../../Components/Card/Card'
 import Grid from '@material-ui/core/Grid';
 import Header from './../../Components/Header/Header';
 import SubHeader from './../../Components/SubHeader/subHeadre'
-import NavbarPage from './../../Components/Navbar/Navbar'
+import NavbarPage from './../../Components/Navbar/Navbar';
+import FooterPagePro from './../../Components/Footer/Footer';
+
+
+
 class BabyToys extends React.Component{
   render(){
     return(
       <div>
-      <Header/>
-     <br/>
+      <Header path={this.props.history}/>
      <SubHeader/>
-       <br/>
-       <NavbarPage/>
+       <NavbarPage  path={this.props.history}/>
 <div style={{margin:"5%"}}>
    <center>
      <Grid container justify="center" >
@@ -221,6 +223,7 @@ class BabyToys extends React.Component{
       </Grid>
     </center>   
 </div>
+<FooterPagePro/>
 </div>
     )
   }

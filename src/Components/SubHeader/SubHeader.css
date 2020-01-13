@@ -1,10 +1,5 @@
-input{
-    /* border: 1px solid gray;
-    background-color: #e6e6e6;
-    padding: 2%;
-    width: 60%;
-    margin-top: "30px"; */
-    outline: none !important;
+.subHeaderDiv{
+    padding: 1%;
 }
 .input-group{
     margin-top: 10px;
@@ -15,4 +10,17 @@ input{
     line-height: 10px;
     font-weight: bold;
     text-align: center;
+}
+
+.searchInput{
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+    background-clip: padding-box;
+    width: 50%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius:5px;
+    box-sizing: border-box;
+    box-decoration-break: slice;
+    font-family: 'Questrial', sans-serif;
+    outline: none;
 }

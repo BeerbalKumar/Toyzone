@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-
+import FooterPagePro from './../../Components/Footer/Footer';
 import BlogCss from "./../../Containers/Blog/Blog.css"
 
 

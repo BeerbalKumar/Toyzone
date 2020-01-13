@@ -10,7 +10,7 @@ export default class Card extends React.Component {
       button: "",
       buttonBackground: "transparent",
       Image: props.productImage
-   }
+    }
   }
   render() {
     return (
@@ -39,20 +39,20 @@ export default class Card extends React.Component {
                 }
               </p>
               <br />
-              <Button variant="contained" color="primary" disableElevation style={{ backgroundColor: '#51b972', width: "70%" }}>
+              <Button variant="contained" color="primary" disableElevation style={{ backgroundColor: '#b24e56', width: "70%" }}>
                 ADD TO CART
-    </Button>
+             </Button>
               <br /><br />
               <h2>
                 RS.
-      {this.props.productPrice}
+               {this.props.productPrice}
               </h2>
 
               <div >
                 <div style={{ width: "25%" }}></div>
               </div>
             </div>
-         </div>
+          </div>
         </div>
       </div>
     );
