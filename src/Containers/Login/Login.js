@@ -24,13 +24,14 @@ export default class Login extends React.Component {
                                 <br /><br />
                                 <p className="loginHeading">Log in and get to work</p>
 
-                                <Button variant="contained" style={{ backgroundColor: "white", color: "#2d5073", width: "90%", border: "1px solid #e0e0e0" }} disableElevation>
+                                <Button variant="contained" style={{ backgroundColor: "#2d5073", color: "white", width: "90%", border: "1px solid #e0e0e0" }} disableElevation>
+                                    <FaFacebookF style={{color: "white",marginRight:"10%" }} />
                                     Login With Facebook
-                                    <FaFacebookF style={{ marginLeft: "50%", color: "#2d5073" }} />
                                 </Button>
-                                <Button variant="contained" style={{ backgroundColor: "white", color: "#c23321", width: "90%", border: "1px solid #e0e0e0" }} disableElevation>
+                                <br/><br/>
+                                <Button variant="contained" style={{ backgroundColor: "white", color: "grey", width: "90%", border: "1px solid #e0e0e0" }} disableElevation>
+                                   <FaGoogle style={{color: "#c23321",marginRight:"15%"  }} />
                                     Login With Google
-                                   <FaGoogle style={{ marginLeft: "50%", color: "#c23321" }} />
                                 </Button>
                                 <br /><br />
                                 <input type="text" className="loginInput" placeholder="username" />

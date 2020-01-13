@@ -1,9 +1,11 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import './SubHeader.css'
-import Logo from './../../images/logo.svg'
+import Logo from './../../images/logo.png'
 import { FaSearch, FaPhone } from "react-icons/fa";
 import Button from '@material-ui/core/Button';
+
+
 
 export default class SubHeader extends React.Component {
   render() {
