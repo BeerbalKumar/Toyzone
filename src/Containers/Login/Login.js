@@ -29,10 +29,14 @@ export default class Login extends React.Component {
                                     Login With Facebook
                                 </Button>
                                 <br/><br/>
+
+                                
                                 <Button variant="contained" style={{ backgroundColor: "white", color: "grey", width: "90%", border: "1px solid #e0e0e0" }} disableElevation>
                                    <FaGoogle style={{color: "#c23321",marginRight:"15%"  }} />
                                     Login With Google
                                 </Button>
+
+
                                 <br /><br />
                                 <input type="text" className="loginInput" placeholder="username" />
                                 <br /><br />

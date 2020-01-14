@@ -77,6 +77,7 @@ class Home extends React.Component {
                     <div>
                       <center>
                         <Card
+                          path={this.props.history}
                           productHoverImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/Holland-Popular-Famous-Lardmark-Souvenir-Windmill-Metal-Model-For-Decor_1024x1024_de9a46f1-0027-4d4b-ad4f-cf0aa5cf62e3_275x.jpg?v=1578056720"
                           productImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
                           productDes="I am a very simple card. I am good at containing small bits of"
@@ -105,6 +106,7 @@ class Home extends React.Component {
                     <div>
                       <center>
                         <Card
+                          path={this.props.history}
                           productHoverImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/Holland-Popular-Famous-Lardmark-Souvenir-Windmill-Metal-Model-For-Decor_1024x1024_de9a46f1-0027-4d4b-ad4f-cf0aa5cf62e3_275x.jpg?v=1578056720"
                           productImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
                           productDes="I am a very simple card. I am good at containing small bits of"
@@ -132,6 +134,7 @@ class Home extends React.Component {
                     <div>
                       <center>
                         <Card
+                          path={this.props.history}
                           productHoverImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/Holland-Popular-Famous-Lardmark-Souvenir-Windmill-Metal-Model-For-Decor_1024x1024_de9a46f1-0027-4d4b-ad4f-cf0aa5cf62e3_275x.jpg?v=1578056720"
                           productImage="https://cdn.shopify.com/s/files/1/0272/0409/1949/products/20191224_163244_275x.jpg?v=1578056720"
                           productDes="I am a very simple card. I am good at containing small bits of"

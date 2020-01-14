@@ -18,7 +18,7 @@ export default class Card extends React.Component {
     return (
       <div style={{ margin: "5%" }}>
         <div>
-          <div className="card">
+          <div className="card" onClick={()=>this.props.path.push('/productdetail')}>
             <div className="card-image"
               style={{ backgroundImage: `url(${this.state.Image})` }}
               onMouseOver={() => this.setState({ cartTitle: "SAVE 100%", background: "black", button: "Quick Buy", buttonBackground: "black", Image: this.props.productHoverImage })}

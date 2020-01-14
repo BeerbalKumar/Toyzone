@@ -1,0 +1,64 @@
+.productDetail{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.productName{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+.productDetailDiv{
+    margin-top: 30px;
+}
+
+.productImage{
+    width: 100%;
+}
+
+.productPrice{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+
+.productQuantity{
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+
+.quantityDiv{
+    border: 1px solid rgb(109, 108, 108);
+    width: 21%;
+    height: 50px;
+}
+
+.quantityButton{
+  width: 39%;
+   height: 48px;
+   background-color: #b24e56;
+   color: white;
+   border: none;
+}
+
+.addToCartButton{
+    background-color: #b24e56 !important;
+    color: white !important;
+    width: 50%;
+    /* margin-left: 30% !important; */
+    margin-top: 30px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .addToCartButton{
+        /* margin: auto !important; */
+    }
+    .productDetailDiv{
+        text-align: center;
+    }
+    .quantityDiv{
+        margin: auto;
+    }
+  }
