@@ -15,7 +15,8 @@ import {
     FlashSale,
     WinterBigSale,
     Login,
-    Signup
+    Signup,
+    ProductDetail
 }
 from './../../Containers'
 import Checkout from "./../../Containers/Checkout/Checkout"
@@ -38,6 +39,7 @@ export default class ReactRouter extends React.Component{
                 <Route exact path="/viewCart" component={Blog} />
                 <Route exact path="/login" component={Login} />
                 <Route exact path="/signup" component={Signup} />
+                <Route exact path="/productdetail" component={ProductDetail} />
             </Router>
         )
     }
