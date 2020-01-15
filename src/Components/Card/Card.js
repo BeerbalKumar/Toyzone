@@ -1,6 +1,7 @@
 import React from 'react'
 import './Card.css'
 import Button from '@material-ui/core/Button';
+import { MDBProgress } from 'mdbreact';
 
 
 export default class Card extends React.Component {
@@ -40,9 +41,12 @@ export default class Card extends React.Component {
                 ADD TO CART
              </Button>
               <br /><br />
-              <h2>RS.{this.props.productPrice}</h2>
+              <p>RS.{this.props.productPrice}</p>
               <div >
-                <div style={{ width: "25%" }}></div>
+                <div style={{ width: "50%" }}>
+              <MDBProgress className="my-2" material value={25} color="danger" />
+
+                </div>
               </div>
             </div>
           </div>

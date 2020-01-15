@@ -7,3 +7,22 @@
     cursor: pointer;
     color: #b24e56;
 }
+
+.popup_content{
+    font-size: 12px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.popup_content b{
+    font-weight: bolder !important;
+}
+
+.add_cartbtn{
+    background-color: #b24e56 !important;
+    width: 80% !important;
+    color: white !important;
+    margin-top: 10px !important;
+}

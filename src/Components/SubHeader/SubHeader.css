@@ -24,3 +24,10 @@
     font-family: 'Questrial', sans-serif;
     outline: none;
 }
+.siteTitle{
+    font-family: 'Questrial', sans-serif;
+    color: #b24e56;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+}

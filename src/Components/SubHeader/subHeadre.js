@@ -13,7 +13,8 @@ export default class SubHeader extends React.Component {
       <div className="subHeaderDiv">
         <Grid container justify="center">
           <Grid item lg={2} xs={2}>
-            <img src={Logo} width="100%" height="50px" />
+            {/* <img src={Logo} width="100%" height="50px" /> */}
+            <p className="siteTitle">Shoppable</p>
           </Grid>
           <Grid item lg={10} xs={8}>
             <center>

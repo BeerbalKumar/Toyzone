@@ -50,7 +50,7 @@ export default class ProductDetail extends React.Component {
                         </Grid>
                         <Grid item lg={5}>
                             <div className="productDetailDiv">
-                                <p className="productName">Little Kitchenware Briefcase - Shoulder Bag</p>
+                                <p className="productName">Little Kitchenware Briefcase-Shoulder Bag</p>
                                 <p className="productPrice">Your Price: <b>Rs.1,450 </b></p>
                                 <p className="productQuantity">Quantity</p>
                                 <div className="quantityDiv">
