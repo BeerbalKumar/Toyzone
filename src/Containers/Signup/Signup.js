@@ -8,28 +8,35 @@ import FooterPagePro from './../../Components/Footer/Footer';
 import Header from './../../Components/Header/Header';
 import SubHeader from './../../Components/SubHeader/subHeadre'
 import NavbarPage from './../../Components/Navbar/Navbar';
+import LoginImage from './../../images/loginImage.png'
 
 
 export default class Signup extends React.Component {
     render() {
         return (
             <div>
-                <Header  path={this.props.history}/>
+                {/* <Header  path={this.props.history}/>
                 <SubHeader/>
-                <NavbarPage  path={this.props.history}/>
+            <NavbarPage  path={this.props.history}/> */}
+
+                <div className="signup_div">
+            <p className="signupHeading">Signup and Get to Work</p>
                 <Grid container justify="center">
-                    <Grid item lg={4} xs={10} sm={10} md={6}>
+                <Grid className="loginImagePart" item lg={5} xs={10} sm={6} md={6}>
+                            <img src={LoginImage} style={{width:"100%",height:"400px",marginTop:"10px"}}/>
+                    </Grid>
+                    
+                    <Grid item lg={4} xs={10} sm={6} md={6}>
                         <div>
                             <center>
-                                <p className="loginHeading">Signup and get to work</p>
-                                <Button variant="contained" style={{ backgroundColor: "#2d5073", color: "white", width: "90%", border: "1px solid #e0e0e0" }} disableElevation>
+                                <Button variant="contained" style={{ backgroundColor: "#2d5073", color: "white", width: "45%", border: "1px solid #e0e0e0",margin:"2% 1% 2% 1%" }} disableElevation>
                                     <FaFacebookF style={{color: "white",marginRight:"10%" }} />
-                                    Login With Facebook
+                                    Facebook
                                 </Button>
-                                <br/>
-                                <Button variant="contained" style={{ backgroundColor: "white", color: "grey", width: "90%", border: "1px solid #e0e0e0" }} disableElevation>
+                                
+                                <Button variant="contained" style={{ backgroundColor: "white", color: "grey", width: "45%", border: "1px solid #e0e0e0",margin:"2% 1% 2% 1%" }} disableElevation>
                                    <FaGoogle style={{color: "#c23321",marginRight:"15%"  }} />
-                                    Login With Google
+                                    Google
                                 </Button>
                             <br /><br />
                                 <input type="text" className="loginInput" placeholder="Firstname" />
@@ -50,7 +57,10 @@ export default class Signup extends React.Component {
                         </div>
                     </Grid>
                 </Grid>
-                <FooterPagePro/>
+                </div>
+
+
+                {/* <FooterPagePro/> */}
             </div>
         )
     }

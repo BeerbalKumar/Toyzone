@@ -10,9 +10,38 @@
     font-family: 'Questrial', sans-serif;
 }
 
-.loginHeading{
+.signupHeading{
     font-family: 'Questrial', sans-serif;
     color: #b24e56 !important;
     font-size: 30px;
+    text-align: center;
+    margin-top: 40px !important;
     /* font-weight: 600; */
 }
+
+.signup_div{
+    box-shadow: 1px 1px 3px 2px rgb(212, 209, 209);
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.login_image_sec{
+    /* background-color: rgb(218, 216, 216); */
+    /* width: 100%; */
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    .loginImagePart{
+      display: none !important;
+    }
+    .signup_div{
+        box-shadow: 1px 1px 3px 2px rgb(212, 209, 209);
+      width: 90% !important;
+    }
+  }
